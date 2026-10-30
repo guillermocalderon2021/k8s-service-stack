@@ -1,0 +1,15 @@
+# Actividad: completar los campos TODO y analizar el resultado en el material de clase.
+# Archivo de práctica: no forma parte del despliegue inicial.
+apiVersion: v1
+kind: Service
+metadata:
+  name: demo-api-practica
+  namespace: devops-demo
+spec:
+  type: ClusterIP
+  selector:
+    app: TODO
+  ports:
+    - name: http
+      port: 80
+      targetPort: TODO

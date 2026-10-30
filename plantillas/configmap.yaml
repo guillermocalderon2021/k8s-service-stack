@@ -1,0 +1,10 @@
+# Actividad: definir valores no sensibles para la aplicación.
+# No aplicar antes de sustituir TODO.
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: demo-config-practica
+  namespace: devops-demo
+data:
+  APP_ENV: TODO
+  DB_HOST: TODO
